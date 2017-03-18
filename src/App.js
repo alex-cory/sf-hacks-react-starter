@@ -20,10 +20,16 @@ export class App extends Component {
   }
 
   render () {
-    if (!this.state.userName) {
-      return <LoginPage setUserName={this.setUserName.bind(this)} />
-    }
+    /*if (!this.state.userName) {
+      return <LoginPage
+        setUserName={this.setUserName.bind(this)} />
+    }*/
 
-    return <MessagesPage userName={this.state.userName} />
+    let someData = '...'
+
+    return (
+      <MessagesPage
+        userName={this.state.userName} />
+    )
   }
 }
