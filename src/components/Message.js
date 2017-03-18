@@ -3,9 +3,8 @@ import CommunicationChatBubble from 'material-ui/svg-icons/communication/chat-bu
 import { ListItem } from 'material-ui/List';
 
 
-export const Message = ({ username, body }) => (
+export const Message = ({ userName, body }) => (
 		<ListItem
-				primaryText={body}
-				rightIcon={<CommunicationChatBubble />}
+				primaryText={`${userName}: ${body}`}
 		/>
 )

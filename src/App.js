@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import RaisedButton from 'material-ui/RaisedButton';
 import LoginPage from './pages/Login'
+import MessagesPage from './pages/Messages'
 
 export class App extends Component {
 
@@ -23,6 +24,6 @@ export class App extends Component {
       return <LoginPage setUserName={this.setUserName.bind(this)} />
     }
 
-    return <h1>You are logged in {this.state.userName}</h1>
+    return <MessagesPage userName={this.state.userName} />
   }
 }
