@@ -6,6 +6,7 @@ const styles = {
   container: {
     maxWidth: 300,
     margin: 'auto',
+    marginTop: 10,
     padding: 20
   },
 
@@ -19,7 +20,7 @@ const LoginPage = ({ setUserName }) => {
       <TextField name="Username" placeholder="What people should call you" ref={r => input = r} />
       <RaisedButton fullWidth
         onClick={() => setUserName(input.input.value)}
-        label="Signin With Facebook"
+        label="Set your username"
         />
     </Paper>
   )
