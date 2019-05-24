@@ -6,6 +6,8 @@
 React Hot Boilerplate
 =====================
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/alex-cory/sf-hacks-react-starter.svg)](https://greenkeeper.io/)
+
 The minimal dev environment to enable live-editing React components.
 
 ### ⚠️⚠️⚠️ This Is Experimental and Incomplete! ⚠️⚠️⚠️
